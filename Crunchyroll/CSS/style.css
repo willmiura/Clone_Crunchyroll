@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: transparent;
+    color: white;
+    background-image: url(/img/hero_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border: 0;
+}
+
+a{
+    color: inherit;
+}
+
+
+.menu-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: top;
+    padding-top: 20px;
+    margin-inline: 160px;
+    max-width: 100vw;
+    height: 200px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    z-index: -100;
+}
+
+.button{
+    padding-top: 5px;
+}
+
+.styled-button-nav{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 7.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    border: solid 2px white;
+    padding: 10px 25px;
+}
+
+.styled-button-login{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 7.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    padding: 10px 42px;
+}
+
+.conteudo{
+    display: flex;
+    max-height: 208px;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo h1{
+    max-width: 600px;
+    font-size: 54px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.role-button{
+    display: flex;
+    justify-content: center;
+}
+
+.premium{
+    font-size: 14px;
+    width: 188px;
+    height: 40px;
+    padding: 0 auto;
+    background-color: rgb(244, 117, 33);
+    border: none;
+    cursor: pointer;
+}
+
+.premium:hover{
+    background-color:rgb(255, 148, 77);
+    transition: ease;
+    transition-duration: 0.5s;
+}
+
+.perks-wrapper img{
+    width: 40px;
+    height: 40px;
+    filter:  brightness(0) invert(1);
+}
+
+.perks-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 75rem;
+    max-height: 102px;
+    gap: 3.5rem 5rem;
+    align-content: center;
+    margin-top: 120px;
+    line-height: 25px;
+
+}
+
+.perks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.perks span{
+    padding-top: 30px;
+}
+
+.devices-content-block{
+    background-image: url(/img/devices.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 823px;
+    height: 100vh;
+    border: 0;
+    margin-top: 420px;
+    color: black;
+
+}
+
+.devices{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.header h2{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.header h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #59595b;
+    max-width: 600px;
+    margin-top: 12px;
+}
+
+.premium-header{
+    font-size: 14px;
+    width: 188px;
+    height: 40px;
+    padding: 0 auto;
+    background-color: rgb(244, 117, 33);
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.premium-header:hover{
+    background-color:rgb(255, 148, 77);
+    transition: ease;
+    transition-duration: 0.5s;
+}
+
+.content-block{
+    margin-top: 120px;
+    width: 100%;
+    max-height: 395px;
+    text-align: center;
+    color: black;
+}
+
+.images{
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.feed{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 15px;
+    margin-top: 45px;
+}
+
+.tittle-heading{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.cards-holder{
+    background-image: linear-gradient(to bottom rgba(218, 218, 218, 0.3));
+}
+
+.content-block.products{
+    max-width: 1240px;
+    max-height: 890px;
+    font-family: 'Lato' sans-serif;
+    font-weight: 500;
+    margin: 190px auto;
+}
+
+.products-comparison{
+    max-width: 1160;
+}
+
+.products-holder{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.tittle-heading{
+    font-size: 34px;
+    line-height: 44px;
+    margin-bottom: 8px;
+}
+.subtittle-text{
+    font-size: 18px;
+    line-height: 26px;
+    color: #59595b;
+    margin-bottom: 50px;
+}
+
+.product{
+    max-width: 370px;
+    max-height: 614px;
+}
+.highlighted-block{
+    max-width: 370px;
+    max-width: 614px;
+    border: solid 6px #dadada;
+}
+.product-content{
+    padding: 2rem 2.5rem 2.5rem;
+    margin: 0;
+}
+
+.product-heading{
+    max-width: 291px;
+    max-height: 284px;
+}
+.icon-wrapper img{
+    max-width: 90px;
+    max-height: 90px;
+}
+.icon-wrapper{
+    margin: 0 auto;
+}
+
+.tittle-wrapper{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.price{
+    font-size: 34px;
+    line-height: 44px;
+}
+.impostos{
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #59595b;
+}
+
+.buttons{
+    max-width: 290px;
+    max-height: 75px;
+    margin: 24px auto;
+}
+.text-premium{
+    font-size: 13px;
+    font-weight: 700;
+    color: #f88132;
+}
+.test-premium{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #f88132;
+    padding:8px 16px;
+    margin-bottom: 8px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+.skip-for-trial{
+    font-size: 12px;
+    font-weight: 700;
+    color: #59595b;
+}
+
+.products-benefits{
+    width: 291px;
+}
+
+.checkmark{
+    max-width: 30px;
+    max-height: 30px;
+}
+.grid-list{
+    display: grid;
+    gap: 15px;
+    font-size: 14px;
+    color: #59595b;
+}
+.grid-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 6px;
+    text-align: initial;
+}
